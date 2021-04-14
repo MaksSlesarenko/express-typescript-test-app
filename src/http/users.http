@@ -1,0 +1,17 @@
+# API
+
+###
+# /
+GET http://localhost:3000/
+
+
+###
+# Get intents
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "model": "model",
+	"text": "test",
+  "utterance": "utterance"
+}
